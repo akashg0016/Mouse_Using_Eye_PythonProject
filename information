@@ -1,0 +1,36 @@
+
+Let's understand the Use of Libraries used in the Project:
+1. **cv2 (OpenCV)**:
+   OpenCV (Open Source Computer Vision Library) is a widely used open-source computer vision and machine learning software library. It provides various tools and functions for working with images and videos, as well as performing tasks such as image manipulation, object detection, image processing, and more. Some common uses of OpenCV (`cv2`) include:
+
+   - Loading and displaying images and videos.
+   - Image manipulation: resizing, cropping, rotating, filtering, etc.
+   - Object detection and tracking.
+   - Facial recognition and feature detection.
+   - Optical character recognition (OCR).
+   - Computer vision applications like robotics, augmented reality, and more.
+
+2. **mediapipe**:
+   MediaPipe is another open-source library developed by Google that focuses on building pipelines for handling various types of media data, including images, videos, and audio. It provides pre-built components and pipelines for tasks like hand tracking, face detection, pose estimation, and more. With `mediapipe`, you can build applications that involve real-time analysis of human movements and interactions. Some common uses of `mediapipe` include:
+
+   - Hand tracking: detecting and tracking the movement of hands in real-time.
+   - Pose estimation: estimating human body poses from images or videos.
+   - Face detection and recognition.
+   - Gesture recognition and interaction.
+   - Building interactive applications using body movements.
+
+3. **pyautogui**:
+   PyAutoGUI is a cross-platform library that allows you to programmatically control the mouse and keyboard.
+   It enables automation of tasks that involve GUI interactions, such as controlling the mouse cursor's movement
+   and clicks, as well as simulating keyboard keypresses. Some common uses of `pyautogui` include:
+
+   - Automating repetitive tasks that involve mouse clicks and keyboard inputs.
+   - Creating scripts to perform GUI interactions and simulations.
+   - Building testing scripts for graphical user interfaces.
+   - Simulating user interactions for UI testing.
+   - Creating custom automation workflows.
+
+In summary, the `cv2` library is used for image and video processing tasks, `mediapipe` is used for tasks related
+to media data analysis and human movement tracking, and `pyautogui` is used for automating GUI interactions and
+simulations. Depending on your specific project or application, you can leverage these libraries to achieve various
+functionalities and automate different tasks.
